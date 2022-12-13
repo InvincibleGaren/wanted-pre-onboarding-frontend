@@ -16,6 +16,7 @@ function TodoListItem(props) {
 
   const onClickUpdate = (e) => {
     setUpdateMode(true)
+    props.clearUpdateTodoListItem(props.todoItem.todo, props.todoItem.isCompleted)
   }
 
   const onClickUpdateCancle = (e) => {

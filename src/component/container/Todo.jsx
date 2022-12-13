@@ -13,9 +13,8 @@ function Todo() {
     todo : "",
     isCompleted : false,
   })
-  const navigate = useNavigate();
   
-
+  const navigate = useNavigate();
 
   // 투두리스트 내용 입력시 state 업데이트
   const onChangeTodoListItem = (e) => {
